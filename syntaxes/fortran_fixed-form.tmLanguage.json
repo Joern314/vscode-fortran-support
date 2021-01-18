@@ -10,7 +10,8 @@
                 "for",
                 "FOR",
                 "fpp",
-                "FPP"
+                "FPP",
+                "inc"
         ],
         "injections": {
                 "source.fortran.fixed - ( string | comment )": {
