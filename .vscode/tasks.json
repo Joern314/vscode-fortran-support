@@ -32,17 +32,10 @@
         {
             "label": "build .vsix",
             "type": "shell",
-            "command": "make",
-            "args": [
-                "-j",
-                "6"
-            ],
+            "command": "npm install typescript vsce && npx vsce package",
             "options": {
-                "cwd": "${workspaceFolder}/build"
+                "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": "build"
         }
     ]

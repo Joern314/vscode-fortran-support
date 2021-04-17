@@ -194,7 +194,7 @@
     "mocha": "^2.3.3",
     "remap-istanbul": "^0.13.0",
     "tslint": "^4.0.2",
-    "typescript": "^2.0.3",
+    "typescript": "^2.9.2",
     "vscode": "^1.1.21"
   },
   "husky": {
@@ -208,6 +208,7 @@
     ]
   },
   "dependencies": {
+    "vsce": "^1.87.1",
     "vscode-languageclient": "^5.1.0"
   }
 }
