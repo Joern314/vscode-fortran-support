@@ -32,7 +32,7 @@
         {
             "label": "build .vsix",
             "type": "shell",
-            "command": "npm install typescript vsce && npx vsce package",
+            "command": "npm install typescript vsce vscode && npx vsce package",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
