@@ -58,7 +58,8 @@
           ".for",
           ".FOR",
           ".fpp",
-          ".FPP"
+          ".FPP",
+          ".inc"
         ],
         "configuration": "./language-configuration.json"
       }
